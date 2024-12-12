@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+header {
+    padding: 16px 156px 16px 156px;
+    background-color: #02A28F;
+    color: white;
+}
+
+
+.container {
+    width: 100%; /* Largura total da página */
+    max-width: 1200px; /* Define um limite máximo */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 0 15px; /* Adiciona espaço interno nas laterais */
+    box-sizing: border-box; /* Inclui o padding no cálculo do tamanho total */
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.img-cidade {
+    width: 744px;
+    height: 396px;
+    transform: translateY(10%);
+    padding: 24px 0px 0px 0px;
+    gap: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.img-cidade {
+    background-image: url(img/cidade.jpg);
+
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.titulo-parag {
+    text-align: left;
+    position: absolute;
+    left: 23px;
+    bottom: 10px;
+    color: white;
+}
+
+.col-2 {
+    padding-left: 30px;
+    transform: translateY(10%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+width: Fixed (744px)px;
+height: Fixed (396px)px;
+top: 120px;
+left: 156px;
+padding: 24px 0px 0px 0px;
+gap: 10px;
+border-radius: 10px 0px 0px 0px;
+opacity: 0px;
+*/

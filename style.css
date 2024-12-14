@@ -32,10 +32,13 @@ header {
     padding: 24px 0px 0px 0px;
     gap: 10px;
     border-radius: 10px 10px 10px 10px;
+    text-shadow: 1px 1px 1px 1px;
 }
 
 .img-cidade {
-    background-image: url(img/cidade.jpg);
+
+    background: linear-gradient(to top, rgba(0, 0, 0, 3.7), rgba(0, 0, 0, 0)),
+    url(img/cidade.jpg);
 
 
     background-size: cover;
@@ -53,15 +56,47 @@ header {
 }
 
 .col-2 {
-    padding-left: 30px;
+    padding-right: 40px;
     transform: translateY(10%);
+
 }
 
 
+.titulo-blu {
+    color: white;
+    background-color: #02A28F;
+    padding-left: 25px ;    
+    padding-right: 25px ;    
+    padding-top: 16px ;    
+    padding-bottom: 16px ;    
+    border-radius: 10px;
+    gap: 10px;
+    box-shadow: 0px 18px 14px 0px rgba(2, 2, 2, 0.082);
+}
+
+.img-dv img{
+    width: 70%;
+    height: 70%;
 
 
+}
 
+.caixa-infor{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    width: 360px;
+    height: 96px;
+    background-color: rgba(1, 255, 56, 0.377);
+    border: 2px solid black;
+}
 
+.caixa-infor div {
+    display: grid;
+    grid-auto-flow: column;    
+    margin-top: 40px;
+    margin-bottom: -25px;
+}
 
 
 

@@ -20,9 +20,11 @@ header {
     max-width: 1200px; /* Define um limite máximo */
     margin: 0 auto; /* Centraliza horizontalmente */
     padding: 0 15px; /* Adiciona espaço interno nas laterais */
+    padding-bottom: 65px;
     box-sizing: border-box; /* Inclui o padding no cálculo do tamanho total */
     display: grid;
     grid-auto-flow: column;
+    border: 2px solid black;
 }
 
 .img-cidade {
@@ -92,11 +94,12 @@ header {
     top: 188px;
     left: 925px;
     gap: 0px;
-    border-radius: 10px 0px 0px 0px;
+    border-radius: 10px;
     opacity: 0px;
-    background-color: rgba(1, 255, 56, 0.377);
-    border: 2px solid black;
+    background-color: #ffff;
+    box-shadow: 0px 10px 10px 0px #0000001A;
 }
+
 
 .sub-titlie {
     width: 172px;
@@ -142,9 +145,235 @@ header {
     overflow: hidden;
     text-overflow: ellipsis;
     font-size: 12px;
+    font-family: Montserrat;
+    line-height: 14.63px;
+    color: #616161;
+
+}
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+.second-secti {
+    width: 696px;
+    height: 36px;
+    padding: 16px 24px 16px 24px;
+    gap: 0px;
+    border-radius: 10px;
+    justify: space-between;
+    opacity: 0px;
+    background: #02A28F;
+    color: #ffff;
+
+}
+
+.link-parag {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: left;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    transform: translateY(30%);
+    position: relative;
+    left: 180px;
+}
+
+.colu-1-secont {
+    display: grid;
+    grid-auto-flow: column;
+    
 }
 
 
+.sect-cards {
+    padding-top: 60px;
+    position: relative;
+    bottom: 20px;
+    right: 16px;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 15px;
+}
+
+
+.card {
+    width: 360px;
+    height: 396px;
+    top: -2793px;
+    left: -1548px;
+    gap: 0px;
+    padding-bottom: 15px;
+    opacity: 0px;
+}
+
+.card1-imag {
+    width: 360px;
+    height: 191px;
+    gap: 0px;
+    border-radius: 16px 16px 0px 0px;
+    opacity: 0px;
+    background-image: url(img/card1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card2-imag {
+    width: 360px;
+    height: 191px;
+    gap: 0px;
+    border-radius: 16px 16px 0px 0px;
+    opacity: 0px;
+    background-image: url(img/card2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card3-imag {
+    width: 360px;
+    height: 191px;
+    gap: 0px;
+    border-radius: 16px 16px 0px 0px;
+    opacity: 0px;  
+    background-image: url(img/card3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card4-imag {
+    width: 360px;
+    height: 191px;
+    gap: 0px;
+    border-radius: 16px 16px 0px 0px;
+    opacity: 0px;  
+    background-image: url(img/card4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.card-text {
+    width: 360px;
+    height: 205px;
+    top: 191px;
+    padding: 16px 0px 0px 0px;
+    gap: 0px;
+    border-radius: 0px 0px 16px 16px;
+    opacity: 0px;
+    color: #000000;
+}
+
+.text1-card{
+    margin-bottom: 15px;
+    width: 56px;
+    height: 17px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+
+.text2-card {
+    margin-bottom: 5px;
+    width: 328px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.38px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+.text3-card {
+    margin-bottom: 5px;
+    width: 140px;
+    height: 17px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.07px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+}
+
+.text4-card {
+   margin-bottom: 5px;
+    width: 328px;
+    height: 68px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17.07px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none; 
+    color: #000000;
+
+}
+
+.text5-card {
+    width: 116px;
+    height: 17px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17.07px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #616161;
+
+}
+
+
+
+
+
+
+
+
+
+/*
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 500;
+line-height: 14.63px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+*/
 
 
 

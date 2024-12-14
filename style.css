@@ -24,7 +24,6 @@ header {
     box-sizing: border-box; /* Inclui o padding no cálculo do tamanho total */
     display: grid;
     grid-auto-flow: column;
-    border: 2px solid black;
 }
 
 .img-cidade {
@@ -263,7 +262,10 @@ header {
     border-radius: 0px 0px 16px 16px;
     opacity: 0px;
     color: #000000;
+    box-shadow: 0px 10px 20px 0px #0000001A;
+
 }
+
 
 .text1-card{
     margin-bottom: 15px;
@@ -279,11 +281,13 @@ header {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    color: #02A28F;
+    margin-left: 15px;
     
 }
 
 .text2-card {
-    margin-bottom: 5px;
+    margin-bottom: 6px;
     width: 328px;
     height: 24px;
     gap: 0px;
@@ -297,11 +301,12 @@ header {
     text-decoration-skip-ink: none;
     white-space: nowrap;
     text-overflow: ellipsis;
+    margin-left: 15px;
 
 }
 
 .text3-card {
-    margin-bottom: 5px;
+   margin-bottom: 4px;
     width: 140px;
     height: 17px;
     gap: 0px;
@@ -320,12 +325,13 @@ header {
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-
-
+    color: #616161;
+    margin-left: 15px;
+    padding-bottom: 5px;
 }
 
 .text4-card {
-   margin-bottom: 5px;
+    margin-bottom: 8px;
     width: 328px;
     height: 68px;
     gap: 0px;
@@ -338,6 +344,7 @@ header {
     text-underline-position: from-font;
     text-decoration-skip-ink: none; 
     color: #000000;
+    margin-left: 15px;
 
 }
 
@@ -354,13 +361,25 @@ header {
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
     color: #616161;
+    margin-left: 15px;
 
 }
 
 
+.ajust-text {
+    position: relative;
+    bottom: -8px;
+}
 
+.ajust-data {
+    margin-top: -17px;
+}
 
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+footer {
+    padding-bottom: 600px;
+}
 
 
 

@@ -32,7 +32,7 @@ header {
     padding: 24px 0px 0px 0px;
     gap: 10px;
     border-radius: 10px 10px 10px 10px;
-    text-shadow: 1px 1px 1px 1px;
+    text-shadow: 12 12 12 12;
 }
 
 .img-cidade {
@@ -56,7 +56,7 @@ header {
 }
 
 .col-2 {
-    padding-right: 40px;
+    padding-right: 25px;
     transform: translateY(10%);
 
 }
@@ -75,29 +75,74 @@ header {
 }
 
 .img-dv img{
-    width: 70%;
-    height: 70%;
-
+    width: 132px;
+    height: 70px;
+    top: 201px;
+    left: 937px;
+    border-radius: 10px;
 
 }
 
 .caixa-infor{
+    margin-bottom: 16px;
     display: grid;
-    grid-auto-flow: column;
-    justify-content: space-around;
+    grid-template-columns: repeat(2, 2fr);
     width: 360px;
     height: 96px;
+    top: 188px;
+    left: 925px;
+    gap: 0px;
+    border-radius: 10px 0px 0px 0px;
+    opacity: 0px;
     background-color: rgba(1, 255, 56, 0.377);
     border: 2px solid black;
 }
 
-.caixa-infor div {
-    display: grid;
-    grid-auto-flow: column;    
-    margin-top: 40px;
-    margin-bottom: -25px;
+.sub-titlie {
+    width: 172px;
+    height: 15px;
+    top: 201px;
+    left: 1021px;
+    font-size: 16px;
+    gap: 0px;
+    opacity: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 15px;
+
 }
 
+.posi-imag {
+    position: relative;
+    top: 12px;
+    left: 7px;
+}
+
+.posi-tex {
+    position: relative;
+    top: 24px;
+    right: 12px;
+}
+
+.posi-sub-data {
+    position: relative;
+    top: 5px;
+}
+
+
+.data-titlie {
+    width: 92px;
+    height: 15px;
+    top: 224px;
+    left: 1031px;
+    gap: 0px;
+    opacity: 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+}
 
 
 

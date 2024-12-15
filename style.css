@@ -8,6 +8,12 @@
 
 }
 
+html {
+    overflow-x: hidden;
+}
+
+
+
 header {
     padding: 16px 156px 16px 156px;
     background-color: #02A28F;
@@ -417,7 +423,7 @@ footer {
     background-color: #02A28F;
 }
 
-footer > p {
+.prg-fot {
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 600;
@@ -431,27 +437,18 @@ footer > p {
 
 
 
-/*
-font-family: Montserrat;
-font-size: 12px;
-font-weight: 500;
-line-height: 14.63px;
-text-align: left;
-text-underline-position: from-font;
-text-decoration-skip-ink: none;
-*/
+@media only screen and (max-width: 1299px){
+    .prg-fot {
+        text-align: center;
+        position: relative;
+        right: 90px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+}
 
 
 
 
 
-/*
-width: Fixed (744px)px;
-height: Fixed (396px)px;
-top: 120px;
-left: 156px;
-padding: 24px 0px 0px 0px;
-gap: 10px;
-border-radius: 10px 0px 0px 0px;
-opacity: 0px;
-*/
+

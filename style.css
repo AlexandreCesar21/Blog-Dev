@@ -449,12 +449,19 @@ footer {
 
 
 @media (max-width: 480px) {
+  
+    * {
+        padding: 0px;
+        margin: 0px;
+        font-family: "Montserrat", sans-serif;
+
+
+    }
+
     html {
         overflow-x: hidden;
     }
     
-
-
     header {
         padding: 16px;
         text-align: center;
@@ -468,7 +475,7 @@ footer {
 
     .img-cidade {
         width: 100%;
-        height: auto;
+        height: 300px;
         transform: translateY(0);
         margin-bottom: 20px;
     }
@@ -476,9 +483,14 @@ footer {
     .titulo-parag {
         position: relative;
         left: 0;
-        bottom: 0;
-        text-align: center;
+        top: 195px;
+        text-align: left;   
+        margin-left: 19px;
     }
+    
+    
+
+
 
     .col-2 {
         transform: translateY(0);

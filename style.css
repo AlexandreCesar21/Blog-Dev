@@ -449,6 +449,12 @@ footer {
 
 
 @media (max-width: 480px) {
+    html {
+        overflow-x: hidden;
+    }
+    
+
+
     header {
         padding: 16px;
         text-align: center;

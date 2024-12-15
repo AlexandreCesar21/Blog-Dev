@@ -448,6 +448,91 @@ footer {
 }
 
 
+@media (max-width: 480px) {
+    header {
+        padding: 16px;
+        text-align: center;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+    }
+
+    .img-cidade {
+        width: 100%;
+        height: auto;
+        transform: translateY(0);
+        margin-bottom: 20px;
+    }
+
+    .titulo-parag {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        text-align: center;
+    }
+
+    .col-2 {
+        transform: translateY(0);
+        right: 0;
+        text-align: center;
+    }
+
+    .titulo-blu {
+        padding: 16px;
+        text-align: center;
+    }
+
+    .caixa-infor {
+        grid-template-columns: 1fr;
+        width: 100%;
+        height: auto;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .sect-cards {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .card1-imag,
+    .card2-imag,
+    .card3-imag,
+    .card4-imag {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-text {
+        padding: 16px;
+        box-shadow: none;
+    }
+
+    .text1-card,
+    .text2-card,
+    .text3-card,
+    .text4-card,
+    .text5-card {
+        margin-left: 0;
+    }
+
+    footer {
+        padding: 16px;
+        text-align: center;
+    }
+
+    .prg-fot {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
 
 
 

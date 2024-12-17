@@ -458,13 +458,21 @@ footer {
 
     }
 
-    html {
-        overflow-x: hidden;
+    html, body {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden; /* Evita rolagem horizontal */
+      }
+
+    body {
+        padding-bottom: 300px;
     }
     
     header {
         padding: 16px;
         text-align: center;
+
+        background-size: cover;
     }
 
     .container {
@@ -477,15 +485,14 @@ footer {
         width: 100%;
         height: 300px;
         transform: translateY(0);
-        margin-bottom: 20px;
+        margin-bottom: 53px;
     }
 
     .titulo-parag {
         position: relative;
-        left: 0;
+        left: 2;
         top: 195px;
-        text-align: left;   
-        margin-left: 219px;
+        text-align: left;  
     }
     
     
@@ -500,21 +507,49 @@ footer {
 
     .col-2-mobile {
         position: relative;
-        left: 720px;
+        left: -3px;
+        top: 2110px;
     }
 
     .titulo-blu {
         padding: 16px;
         text-align: center;
+        width: 395px;
+        
+
     }
 
     .caixa-infor {
-        grid-template-columns: 1fr;
+        display: grid;
+        grid-auto-flow: column;
         width: 100%;
-        height: auto;
+        height: 100px;
         gap: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
+
+    .img-dv img{
+        width: 138.56px;
+        height: 70px;
+        top: 2248px;
+        display: flex;
+        left: 21.25px;
+        gap: 0px;
+        border-radius: 8px 8px 8px 8px;
+        opacity: 0px;
+    }
+
+    .posi-tex {
+        position: relative;
+        right: 43px;
+        text-align: left;
+    }
+
+    .posi-sub-data {
+        margin-top: 5px;
+    }
+
+
 
     .sect-cards {
         grid-template-columns: 1fr;
@@ -523,9 +558,6 @@ footer {
     }
 
     .card {
-        /*
-        width: 388px;
-        height: 345px;*/
         width: 442px;
         height: 375px;
         top: 191px;
@@ -564,13 +596,19 @@ footer {
     }
 
     footer {
-        padding: 16px;
+        padding: 17px;
         text-align: center;
+        position: relative;
+        left: 0px;
+        width: 100%;
+        top: 2170px;
     }
 
     .prg-fot {
         font-size: 12px;
         line-height: 16px;
+        position: relative;
+        left: 4px;
     }
 
 
@@ -581,7 +619,11 @@ footer {
 
     .col2-secont {
         position: relative;
-        left: 700px;
+        left: -42px;
+        text-align: left;
+        padding: 20px;
+        margin-left: 25px;
+        top: 2035px;
     }
 
     .second-secti {
@@ -589,6 +631,10 @@ footer {
         font-size: 0.8em;
         width: 90%;
 
+    }
+
+    .colu-1-secont {
+        margin-bottom: -14px;
     }
 
     .title-second-mobile {
@@ -601,6 +647,18 @@ footer {
         left: 50px;
         top: 5px;
     }
+
+
+    .notificacao {
+        width: 400px;
+    }
+
+
+
+
+
+
+
 }
 
 

@@ -732,7 +732,7 @@ footer {
         height: 120px;
         gap: 64px;
         margin-bottom: 15px;
-        
+        background-color: red
     }
 
     .img-dv img{
@@ -746,10 +746,16 @@ footer {
         opacity: 0px;
     }
 
+    .img-dv {
+        position: relative;
+        top: 15px;
+    } 
+
     .posi-tex {
         position: relative;
         right: 43px;
         text-align: left;
+        top: 35px;
     }
 
     .posi-sub-data {
@@ -770,11 +776,10 @@ footer {
         top: 191px;
         padding: 30px;
         margin-bottom: 46px;
+        margin-top: -30px;
         gap: 0px;
         border-radius: 0px 0px 16px 16px;
-        opacity: 0px;
-        
-
+        opacity: 0px;        
     }
 
 

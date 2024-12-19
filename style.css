@@ -877,7 +877,7 @@ footer {
     .num-notf {
         justify-items: end;
         position: relative;
-        left: 24px;
+        left: -37px;
     }
     .notificacao {
         width: 400px;

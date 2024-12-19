@@ -655,7 +655,7 @@ footer {
 }
 
 
-@media (max-width: 360px) {
+@media (max-width: 600px) {
     * {
         padding: 0px;
         margin: 0px;

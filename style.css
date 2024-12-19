@@ -886,5 +886,17 @@ footer {
 
 }
 
+@media (max-width: 600px) {
 
+
+    .num-notf {
+        justify-items: end;
+        position: relative;
+        left: -87px;
+    }
+
+
+
+
+}
 

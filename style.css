@@ -448,7 +448,7 @@ footer {
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   
     * {
         padding: 0px;
@@ -720,9 +720,15 @@ footer {
     .titulo-blu {
         padding: 16px;
         text-align: center;
-        width: 285px;
+        width: 86%;
+        height: 13px;
         position: relative;
         left: 7px;
+    }
+
+    .titulo-blu-text {
+        position: relative;
+        top: -10px;
     }
 
     .caixa-infor {

@@ -15,3 +15,8 @@
 </p>
 <p>• <b>Responsividade:</b> Media queries são usadas para garantir que a página seja adequada para dispositivos móveis e tablets.
 </p>
+
+
+
+<a href="https://blog-do-dev.netlify.app/">Link do site</a>
+
